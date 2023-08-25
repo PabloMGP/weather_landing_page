@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url('https://pixabay.com/get/g43a6d1802f03cd7edc87cd6a61f2b1ff585cece471fdf1fd2f20893a01c4b5736076803f83a06308436906eb69740939.jpg');
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-icon {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto -20px auto;
+    background-size: 100%;
+}
+
+.card {
+    background-color: rgb(116, 182, 223);
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

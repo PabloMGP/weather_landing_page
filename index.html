@@ -14,24 +14,45 @@
 
         <div class="top-panel">
             <div class="card">
-            <div class="weather-icon"></div>
-            <h1 class="weather-condition"></h1>
-            <h2 class="city-name">london</h2>
-            <p class="date"></p>
-            <p class="time"></p>
-            <div class="wrapper">
-            <h2 class="temperature-c"></h2>
-            <h2 class="temperature-f"></h2>
-        </div>
+                <div class="weather-icon"></div>
+                <h1 class="weather-condition"></h1>
+
+                <h2 class="city-name"></h2>
+                <p class="date"></p>
+                <p class="time"></p>
+
+                <div class="wrapper-center">
+                    <h2 class="temperature-c"></h2>
+                    <h2 class="temperature-f"></h2>
+                </div>
+
+                <button class="open">More Information</button>
+
+                <form id="city-form">
+                    <input type="text" id="city-input" placeholder="Search Location..." required autocomplete="off">
+                    <button type="submit"><span>&#128269;</span></button>
+                </form>
+            </div>
+
+            <div class="card-two hidden">
+                <button class="close"><img src="./media/close.webp" alt=""></button>
+                <img src="./media/temperature.webp" alt="temperature icon">
+                <p class="feels-like"></p>
+
+                <img src="./media/humidity.webp" alt="humidity icon">
+                <p class="humidity"></p>
+
+                <img src="./media/visibility.webp" alt="rain chance icon">
+                <p class="visibility"></p>
+
+                <img src="./media/wind.webp" alt="wind speed">
+                <p class="wind-speed"></p>
+            </div>
+
         </div>
     </div>
-
-        <div class="bottom-panel">
-
-        </div>
-
-    </div>
-
 </body>
-
+<footer>Pablo Garcia 2023. <a href="https://github.com/PabloMGP"><img
+    src="https://res.cloudinary.com/dsitzow1q/image/upload/v1681722025/galaxy_fold_showcase/github_imfqdq_topufz.webp"
+    alt="github icon"></a></footer>
 </html>
